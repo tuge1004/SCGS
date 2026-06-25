@@ -9,6 +9,7 @@
 # 其他大文件
 *.csv
 !sample_data.csv
+!06_用户语言风格/圈层语言风格表_清洗版.csv
 
 # Python缓存
 __pycache__/
