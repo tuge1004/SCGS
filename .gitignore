@@ -1,12 +1,14 @@
 # GitHub 大文件排除规则
 # 数据文件（超过100MB，GitHub限制）
 02_数据/
+!02_数据/sample_data.csv
 
 # 网络文件
 *.gexf
 
 # 其他大文件
 *.csv
+!sample_data.csv
 
 # Python缓存
 __pycache__/
